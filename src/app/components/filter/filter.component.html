@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<body>
+    <div class="div1">
+        <ul class="firstlist">
+            <li class="li1">
+                <input class="firstinput" type="text" placeholder="{{filter_inputs[0]}}">
+            </li>
+            <li class="li2">
+                <!-- <input class="secondinput" type="text" placeholder="{{filter_inputs[1]}}"> -->
+                <select name="selectCity" class="select1" tabindex="-1">
+                    <option>{{cities[0]}}</option>
+                    <option>{{cities[1]}}</option>
+                    <option>{{cities[2]}}</option>
+                    <option>{{cities[3]}}</option>
+                    <option>{{cities[4]}}</option>
+                    <option>{{cities[5]}}</option>
+                </select>
+                <select name="selectprice" class="select2" tabindex="0">
+                    <option>{{prices[0]}}</option>
+                    <option>{{prices[1]}}</option>
+                    <option>{{prices[2]}}</option>
+                    <option>{{prices[3]}}</option>
+                    <option>{{prices[4]}}</option>
+                </select>
+                <select name="selecttype" class="select3" tabindex="1">
+                    <option>{{types[0]}}</option>
+                    <option>{{types[1]}}</option>
+                </select>
+            </li>
+            <li class="li3" style="list-style: none;padding-top: 40px;">
+                <button class="btn1" style="height: 53px;width: 53px;">
+                <img class="s1" src="{{search_logo[0]}}">
+            </button>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

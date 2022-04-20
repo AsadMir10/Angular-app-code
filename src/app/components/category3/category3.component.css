@@ -1,0 +1,25 @@
+.third-list-car1 img {
+    height: 150px;
+}
+
+.third-list-car2 img {
+    height: 150px;
+}
+
+.third-list-car11 img {
+    height: 150px;
+}
+
+.third-list-car12 img {
+    height: 150px;
+}
+
+.third-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.third-div {
+    height: 900px;
+    background-color: azure;
+}

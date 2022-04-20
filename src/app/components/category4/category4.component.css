@@ -1,0 +1,25 @@
+.third-list-bike1 img {
+    height: 150px;
+}
+
+.third-list-bike2 img {
+    height: 150px;
+}
+
+.third-list-bike3 img {
+    height: 150px;
+}
+
+.third-list-bike4 img {
+    height: 150px;
+}
+
+.third-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.third-div {
+    height: 900px;
+    background-color: azure;
+}

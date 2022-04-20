@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{page.title}}</title>
+</head>
+
+<body>
+    <div class="upperdiv">
+        <img class="firstimage" src="{{startlogo.logo}}" alt="Image not working">
+        <p class="first-p" style="padding-left: 15px;">{{page.content}}</p>
+        <h1 class="firsth1">{{startlogo.content}}</h1>
+    </div>
+    <div>
+        <app-filter></app-filter>
+        <!-- Calling the Filter component inside This to trigger the child Functionality in The page Component -->
+    </div>
+    <div class="second-div">
+        <nav class="first-navigator">
+            <h1 class="secondh1"><u>{{category.title}}</u></h1>
+            <ul class="first-list">
+                <u>
+            <p style="font-family: 'Times New Roman', Times, serif;font-size: x-large;">Cars</p></u>
+                <u>
+            <img src="{{logos[0]}}">
+            <li style="display: inline-block; margin: 0 10px;cursor: pointer;">{{cars[0]}}</li>
+            <img src="{{logos[1]}}">
+            <li style="display: inline-block; margin: 0 10px;cursor: pointer;">{{cars[1]}}</li>
+            <img src="{{logos[2]}}">
+            <li style="display: inline-block;margin: 0 10px;cursor: pointer;">{{cars[2]}}</li>
+            </u>
+            </ul>
+        </nav>
+        <nav class="second-navigator">
+            <ul class="second-list ">
+                <u>
+            <p style="font-family: 'Times New Roman', Times, serif;font-size: x-large; ">Bikes</p></u>
+                <u>
+            <img src="{{logos[3]}}">
+            <li style="display: inline-block; margin: 0 10px;cursor: pointer; ">{{bikes[0]}}</li>
+            <img src="{{logos[4]}}">
+            <li style="display: inline-block; margin: 0 10px;cursor: pointer; ">{{bikes[1]}}</li>
+            <img src="{{logos[5]}}">
+            <li style="display: inline-block;margin: 0 10px;cursor: pointer; ">{{bikes[2]}}</li>
+            </u>
+            </ul>
+        </nav>
+    </div>
+    <div class="third-div">
+        <h3 class="first-h1-div3"><u>All Used Cars and Bikes</u></h3>
+        <nav class="third-nav">
+            <ul class="third-list-car1">
+                <img src="{{toyota_sale_cars[0]}}">
+                <li>Name : Toyota tundra TRD Pro</li>
+                <li>Make : Toyota</li>
+                <li>Model : 2015</li>
+                <li>Price : PKR 3,364,225</li>
+                <li>Location : Islamabad</li>
+                <li>Date Added : 20 March, 2021</li>
+                <li>Rating : 3.1</li>
+            </ul>
+            <ul class="third-list-car2">
+                <img src="{{toyota_sale_cars[1]}}">
+                <li>Name : Toyota Land Cruiser</li>
+                <li>Make : Toyota</li>
+                <li>Model : 1996</li>
+                <li>Price : PKR 2,859,000</li>
+                <li>Location : Lahore</li>
+                <li>Date Added : 8 January 2020</li>
+                <li>Rating : 2.9</li>
+            </ul>
+            <ul class="third-list-car3">
+                <img src="{{toyota_sale_cars[2]}}">
+                <li>Name : Toyota Corolla </li>
+                <li>Make : Toyota</li>
+                <li>Model : 2021</li>
+                <li>Price : PKR 7,200,000</li>
+                <li>Location : Kashmir</li>
+                <li>Date Added : 17 February, 2022</li>
+                <li>Rating : 4.3</li>
+            </ul>
+            <ul class="third-list-car4">
+                <img src="{{toyota_sale_cars[3]}}">
+                <li>Name : Toyota Camry LE </li>
+                <li>Make : Toyota</li>
+                <li>Model : 1993</li>
+                <li>Price : PKR 2,452,913</li>
+                <li>Location : Multan</li>
+                <li>Date Added : 31 December, 2018</li>
+                <li>Rating : 2.2</li>
+            </ul>
+            <ul class="third-list-car5">
+                <img src="{{toyota_sale_cars[4]}}">
+                <li>Name : Toyota MR2 Turbo </li>
+                <li>Make : Toyota</li>
+                <li>Model : 1993</li>
+                <li>Price : PKR 9,100,237</li>
+                <li>Location : Peshawar</li>
+                <li>Date Added : 10 August, 2019</li>
+                <li>Rating : 4.5</li>
+            </ul>
+            <ul class="third-list-car6">
+                <img src="{{honda_sale_car_images[0]}}">
+                <li>Name : {{honda_sale_car_names[0]}}</li>
+                <li>Make : Honda</li>
+                <li>Model : {{honda_sale_car_models[0]}}</li>
+                <li>Price : {{honda_sale_car_prices[0]}}</li>
+                <li>Location : {{honda_sale_car_locations[0]}}</li>
+                <li>Date Added : {{honda_sale_car_dates[0]}}</li>
+                <li>Rating : {{honda_sale_car_ratings[0]}}</li>
+            </ul>
+            <ul class="third-list-car7">
+                <img src="{{honda_sale_car_images[1]}}">
+                <li>Name : {{honda_sale_car_names[1]}}</li>
+                <li>Make : Honda</li>
+                <li>Model : {{honda_sale_car_models[1]}}</li>
+                <li>Price : {{honda_sale_car_prices[1]}}</li>
+                <li>Location : {{honda_sale_car_locations[1]}}</li>
+                <li>Date Added : {{honda_sale_car_dates[1]}}</li>
+                <li>Rating : {{honda_sale_car_ratings[1]}}</li>
+            </ul>
+            <ul class="third-list-car8">
+                <img src="{{honda_sale_car_images[2]}}">
+                <li>Name : {{honda_sale_car_names[2]}}</li>
+                <li>Make : Honda</li>
+                <li>Model : {{honda_sale_car_models[2]}}</li>
+                <li>Price : {{honda_sale_car_prices[2]}}</li>
+                <li>Location : {{honda_sale_car_locations[2]}}</li>
+                <li>Date Added : {{honda_sale_car_dates[2]}}</li>
+                <li>Rating : {{honda_sale_car_ratings[2]}}</li>
+            </ul>
+            <ul class="third-list-car9">
+                <img src="{{honda_sale_car_images[3]}}">
+                <li>Name : {{honda_sale_car_names[3]}}</li>
+                <li>Make : Honda</li>
+                <li>Model : {{honda_sale_car_models[3]}}</li>
+                <li>Price : {{honda_sale_car_prices[3]}}</li>
+                <li>Location : {{honda_sale_car_locations[3]}}</li>
+                <li>Date Added : {{honda_sale_car_dates[3]}}</li>
+                <li>Rating : {{honda_sale_car_ratings[3]}}</li>
+            </ul>
+            <ul class="third-list-car10">
+                <img src="{{honda_sale_car_images[4]}}">
+                <li>Name : {{honda_sale_car_names[4]}}</li>
+                <li>Make : Honda</li>
+                <li>Model : {{honda_sale_car_models[4]}}</li>
+                <li>Price : {{honda_sale_car_prices[4]}}</li>
+                <li>Location : {{honda_sale_car_locations[4]}}</li>
+                <li>Date Added : {{honda_sale_car_dates[4]}}</li>
+                <li>Rating : {{honda_sale_car_ratings[4]}}</li>
+            </ul>
+            <ul class="third-list-car11">
+                <img src="{{lexus_sale_car_images[0]}}">
+                <li>Name : {{lexus_sale_car_names[0]}}</li>
+                <li>Make : Lexus</li>
+                <li>Model : {{lexus_sale_car_models[0]}}</li>
+                <li>Price : {{lexus_sale_car_prices[0]}}</li>
+                <li>Location : {{lexus_sale_car_locations[0]}}</li>
+                <li>Date Added : {{lexus_sale_car_dates[0]}}</li>
+                <li>Rating : {{lexus_sale_car_ratings[0]}}</li>
+            </ul>
+            <ul class="third-list-car12">
+                <img src="{{lexus_sale_car_images[1]}}">
+                <li>Name : {{lexus_sale_car_names[1]}}</li>
+                <li>Make : Lexus</li>
+                <li>Model : {{lexus_sale_car_models[1]}}</li>
+                <li>Price : {{lexus_sale_car_prices[1]}}</li>
+                <li>Location : {{lexus_sale_car_locations[1]}}</li>
+                <li>Date Added : {{lexus_sale_car_dates[1]}}</li>
+                <li>Rating : {{lexus_sale_car_ratings[1]}}</li>
+            </ul>
+            <ul class="third-list-bike1">
+                <img src="{{bike_sale_images[0]}}">
+                <li>Name : {{bike_sale_names[0]}}</li>
+                <li>Make : Bajaj</li>
+                <li>Model : {{bike_sale_models[0]}}</li>
+                <li>Price : {{bike_sale_prices[0]}}</li>
+                <li>Location : {{bike_sale_locations[0]}}</li>
+                <li>Date Added : {{bike_sale_dates[0]}}</li>
+                <li>Rating : {{bike_sale_ratings[0]}}</li>
+            </ul>
+            <ul class="third-list-bike2">
+                <img src="{{bike_sale_images[1]}}">
+                <li>Name : {{bike_sale_names[1]}}</li>
+                <li>Make : Bajaj</li>
+                <li>Model : {{bike_sale_models[1]}}</li>
+                <li>Price : {{bike_sale_prices[1]}}</li>
+                <li>Location : {{bike_sale_locations[1]}}</li>
+                <li>Date Added : {{bike_sale_dates[1]}}</li>
+                <li>Rating : {{bike_sale_ratings[1]}}</li>
+            </ul>
+            <ul class="third-list-bike3">
+                <img src="{{bike_sale_images[2]}}">
+                <li>Name : {{bike_sale_names[2]}}</li>
+                <li>Make : Bajaj</li>
+                <li>Model : {{bike_sale_models[2]}}</li>
+                <li>Price : {{bike_sale_prices[2]}}</li>
+                <li>Location : {{bike_sale_locations[2]}}</li>
+                <li>Date Added : {{bike_sale_dates[2]}}</li>
+                <li>Rating : {{bike_sale_ratings[2]}}</li>
+            </ul>
+            <ul class="third-list-bike4">
+                <img src="{{bike_sale_images[3]}}">
+                <li>Name : {{bike_sale_names[3]}}</li>
+                <li>Make : Bajaj</li>
+                <li>Model : {{bike_sale_models[3]}}</li>
+                <li>Price : {{bike_sale_prices[3]}}</li>
+                <li>Location : {{bike_sale_locations[3]}}</li>
+                <li>Date Added : {{bike_sale_dates[3]}}</li>
+                <li>Rating : {{bike_sale_ratings[3]}}</li>
+            </ul>
+            <ul class="third-list-bike5">
+                <img src="{{all_other_bike_sale_images[0]}}">
+                <li>Name : {{all_other_bike_sale_names[0]}}</li>
+                <li>Make : Hero</li>
+                <li>Model : {{all_other_bike_sale_models[0]}}</li>
+                <li>Price : {{all_other_bike_sale_prices[0]}}</li>
+                <li>Location : {{all_other_bike_sale_locations[0]}}</li>
+                <li>Date Added : {{all_other_bike_sale_dates[0]}}</li>
+                <li>Rating : {{all_other_bike_sale_ratings[0]}}</li>
+            </ul>
+            <ul class="third-list-bike6">
+                <img src="{{all_other_bike_sale_images[1]}}">
+                <li>Name : {{all_other_bike_sale_names[1]}}</li>
+                <li>Make : Hero</li>
+                <li>Model : {{all_other_bike_sale_models[1]}}</li>
+                <li>Price : {{all_other_bike_sale_prices[1]}}</li>
+                <li>Location : {{all_other_bike_sale_locations[1]}}</li>
+                <li>Date Added : {{all_other_bike_sale_dates[1]}}</li>
+                <li>Rating : {{all_other_bike_sale_ratings[1]}}</li>
+            </ul>
+            <ul class="third-list-bike7">
+                <img src="{{all_other_bike_sale_images[2]}}">
+                <li>Name : {{all_other_bike_sale_names[2]}}</li>
+                <li>Make : Hero</li>
+                <li>Model : {{all_other_bike_sale_models[2]}}</li>
+                <li>Price : {{all_other_bike_sale_prices[2]}}</li>
+                <li>Location : {{all_other_bike_sale_locations[2]}}</li>
+                <li>Date Added : {{all_other_bike_sale_dates[2]}}</li>
+                <li>Rating : {{all_other_bike_sale_ratings[2]}}</li>
+            </ul>
+            <ul class="third-list-bike8">
+                <img src="{{all_other_bike_sale_images[3]}}">
+                <li>Name : {{all_other_bike_sale_names[3]}}</li>
+                <li>Make : Yamaha</li>
+                <li>Model : {{all_other_bike_sale_models[3]}}</li>
+                <li>Price : {{all_other_bike_sale_prices[3]}}</li>
+                <li>Location : {{all_other_bike_sale_locations[3]}}</li>
+                <li>Date Added : {{all_other_bike_sale_dates[3]}}</li>
+                <li>Rating : {{all_other_bike_sale_ratings[3]}}</li>
+            </ul>
+            <ul class="third-list-bike9">
+                <img src="{{all_other_bike_sale_images[4]}}">
+                <li>Name : {{all_other_bike_sale_names[4]}}</li>
+                <li>Make : Yamaha</li>
+                <li>Model : {{all_other_bike_sale_models[4]}}</li>
+                <li>Price : {{all_other_bike_sale_prices[4]}}</li>
+                <li>Location : {{all_other_bike_sale_locations[4]}}</li>
+                <li>Date Added : {{all_other_bike_sale_dates[4]}}</li>
+                <li>Rating : {{all_other_bike_sale_ratings[4]}}</li>
+            </ul>
+            <ul class="third-list-bike10">
+                <img src="{{all_other_bike_sale_images[5]}}">
+                <li>Name : {{all_other_bike_sale_names[5]}}</li>
+                <li>Make : Yamaha</li>
+                <li>Model : {{all_other_bike_sale_models[5]}}</li>
+                <li>Price : {{all_other_bike_sale_prices[5]}}</li>
+                <li>Location : {{all_other_bike_sale_locations[5]}}</li>
+                <li>Date Added : {{all_other_bike_sale_dates[5]}}</li>
+                <li>Rating : {{all_other_bike_sale_ratings[5]}}</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>

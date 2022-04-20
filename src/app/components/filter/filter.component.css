@@ -1,0 +1,67 @@
+            .div1 {
+                height: 150px;
+                width: 1460px;
+                background-color: gainsboro;
+            }
+            
+            .firstinput {
+                height: 50px;
+                width: 300px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: larger;
+                border: 1px solid black;
+            }
+            
+            .firstlist {
+                display: flex;
+                justify-content: flex-start;
+            }
+            
+            .li1 {
+                list-style: none;
+                padding-left: 100px;
+                padding-top: 40px;
+            }
+            
+            .li2 {
+                list-style: none;
+                padding-top: 40px;
+            }
+            
+            .select1 {
+                height: 53px;
+                width: 300px;
+                border: 1px solid black;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                cursor: pointer;
+            }
+            
+            .select2 {
+                height: 53px;
+                width: 250px;
+                border: 1px solid black;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                cursor: pointer;
+            }
+            
+            .select3 {
+                height: 53px;
+                width: 250px;
+                border: 1px solid black;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                cursor: pointer;
+            }
+            
+            .s1 {
+                height: 38px;
+                width: 38px;
+                border: 0;
+                outline: none;
+            }
+            
+            .btn1:hover {
+                background-color: green;
+            }

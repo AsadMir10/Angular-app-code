@@ -1,0 +1,71 @@
+    /* h1 {
+        text-align: center;
+        text-decoration: underline;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        background-color: darkgrey;
+        font-size: 50px;
+    } */
+    
+    body {
+        background-color: #f0f0f0;
+    }
+    
+    .div-app {
+        height: 90px;
+        background-color: brown;
+    }
+    
+    .app-navigator {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .app-list {
+        list-style-type: none;
+    }
+    
+    .app-list1 {
+        list-style-type: none;
+    }
+    
+    .app-list2 {
+        list-style-type: none;
+    }
+    
+    .app-list3 {
+        list-style-type: none;
+    }
+    
+    .app-list4 {
+        list-style-type: none;
+    }
+    
+    .app-list5 {
+        list-style-type: none;
+    }
+    
+    .btn1 {
+        font-size: 20px;
+    }
+    
+    .btn2 {
+        font-size: 20px;
+    }
+    
+    .btn3 {
+        font-size: 20px;
+    }
+    
+    .btn4 {
+        font-size: 20px;
+    }
+    
+    .btn5 {
+        font-size: 20px;
+    }
+    
+    .btn6 {
+        font-size: 20px;
+    }

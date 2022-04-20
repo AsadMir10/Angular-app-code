@@ -1,0 +1,498 @@
+div.upperdiv {
+    background-color: rgb(19, 19, 110);
+    height: 300px;
+    padding-top: 10px;
+    border: 5px solid rgb(19, 19, 110);
+}
+
+p.first-p {
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img.firstimage {
+    width: 200px;
+    height: 100px;
+    opacity: 85%;
+}
+
+h1.firsth1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30%;
+    padding-top: 1.5%;
+}
+
+div.second-div {
+    background-color: rgb(192, 197, 202);
+    height: 300px;
+    border: 5px solid rgb(192, 197, 202);
+}
+
+h1.secondh1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 45px;
+}
+
+ul.first-list {
+    color: black;
+    font-size: x-large;
+    padding-left: 55px;
+    /* background-color: blue; */
+}
+
+.first-navigator li:hover {
+    box-shadow: inset 0 0 30px 3px rgb(133, 132, 132);
+}
+
+.second-list {
+    color: black;
+    font-size: x-large;
+    padding-left: 55px;
+}
+
+.second-navigator li:hover {
+    box-shadow: inset 0 0 30px 3px rgb(133, 132, 132);
+}
+
+.first-navigator img {
+    height: 30px;
+    width: auto;
+}
+
+.second-navigator img {
+    height: 30px;
+    width: auto;
+}
+
+.third-div {
+    height: 2200px;
+    background-color: rgb(194, 190, 190);
+    border: 5px solid rgb(194, 190, 190);
+}
+
+.first-h1-div3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-left: 45px;
+}
+
+.third-list-car1 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car1 img {
+    height: 150px;
+}
+
+.third-list-car2 img {
+    height: 150px;
+}
+
+.third-list-car3 img {
+    height: 150px;
+}
+
+.third-list-car4 img {
+    height: 150px;
+}
+
+.third-list-car5 img {
+    height: 150px;
+}
+
+.third-list-car6 img {
+    height: 150px;
+}
+
+.third-list-car7 img {
+    height: 150px;
+}
+
+.third-list-car8 img {
+    height: 150px;
+}
+
+.third-list-car9 img {
+    height: 150px;
+}
+
+.third-list-car10 img {
+    height: 150px;
+}
+
+.third-list-car11 img {
+    height: 150px;
+}
+
+.third-list-car12 img {
+    height: 150px;
+}
+
+.third-list-bike1 img {
+    height: 150px;
+}
+
+.third-list-car1 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+}
+
+.third-list-car2 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 20px;
+}
+
+.third-list-car3 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 20px;
+}
+
+.third-list-car4 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 20px;
+}
+
+.third-list-car5 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+}
+
+.third-list-car6 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 25px;
+}
+
+.third-list-car7 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 25px;
+}
+
+.third-list-car8 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 25px;
+}
+
+.third-list-car9 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+}
+
+.third-list-car10 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 50px;
+}
+
+.third-list-car11 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    /* margin: 0 20px; */
+}
+
+.third-list-car12 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 60px;
+}
+
+.third-list-car2 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car3 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car4 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car5 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car6 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car7 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car8 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car9 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car10 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car11 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car12 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-car1 img:hover {
+    height: 300px;
+}
+
+.third-list-car2 img:hover {
+    height: 300px;
+}
+
+.third-list-car3 img:hover {
+    height: 300px;
+}
+
+.third-list-car4 img:hover {
+    height: 300px;
+}
+
+.third-list-car5 img:hover {
+    height: 300px;
+}
+
+.third-list-car6 img:hover {
+    height: 300px;
+}
+
+.third-list-car7 img:hover {
+    height: 300px;
+}
+
+.third-list-car8 img:hover {
+    height: 300px;
+}
+
+.third-list-car9 img:hover {
+    height: 300px;
+}
+
+.third-list-car10 img:hover {
+    height: 300px;
+}
+
+.third-list-car11 img:hover {
+    height: 300px;
+}
+
+.third-list-car12 img:hover {
+    height: 300px;
+}
+
+.third-list-bike1 img {
+    height: 150px;
+}
+
+.third-list-bike2 img {
+    height: 150px;
+}
+
+.third-list-bike3 img {
+    height: 150px;
+}
+
+.third-list-bike4 img {
+    height: 150px;
+}
+
+.third-list-bike5 img {
+    height: 150px;
+}
+
+.third-list-bike6 img {
+    height: 150px;
+}
+
+.third-list-bike7 img {
+    height: 150px;
+}
+
+.third-list-bike8 img {
+    height: 150px;
+}
+
+.third-list-bike9 img {
+    height: 150px;
+}
+
+.third-list-bike10 img {
+    height: 150px;
+}
+
+.third-list-bike1 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+}
+
+.third-list-bike2 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 60px;
+}
+
+.third-list-bike3 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 10px;
+}
+
+.third-list-bike4 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 10px;
+}
+
+.third-list-bike5 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    /* margin: 0 10px; */
+}
+
+.third-list-bike6 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 30px;
+}
+
+.third-list-bike7 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 40px;
+}
+
+.third-list-bike8 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    /* margin: 0 60px; */
+}
+
+.third-list-bike9 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    /* margin: 0 60px; */
+}
+
+.third-list-bike10 {
+    display: inline-block;
+    box-shadow: inset 0 0 100px 10px rgb(133, 132, 132);
+    margin: 0 20px;
+}
+
+.third-list-bike1 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike2 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike3 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike4 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike5 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike6 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike7 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike8 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike9 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike10 li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.third-list-bike1 img:hover {
+    height: 300px;
+}
+
+.third-list-bike2 img:hover {
+    height: 300px;
+}
+
+.third-list-bike3 img:hover {
+    height: 300px;
+}
+
+.third-list-bike4 img:hover {
+    height: 300px;
+}
+
+.third-list-bike5 img:hover {
+    height: 300px;
+}
+
+.third-list-bike6 img:hover {
+    height: 300px;
+}
+
+.third-list-bike7 img:hover {
+    height: 300px;
+}
+
+.third-list-bike8 img:hover {
+    height: 300px;
+}
+
+.third-list-bike9 img:hover {
+    height: 300px;
+}
+
+.third-list-bike10 img:hover {
+    height: 300px;
+}
